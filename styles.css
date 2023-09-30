@@ -4,6 +4,26 @@ body {
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
+    overflow: hidden;
+    background: linear-gradient(45deg, #36BBCE, #1D344F);
+    animation: moveBackground 10s linear infinite alternate;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
 }
 
 header {
